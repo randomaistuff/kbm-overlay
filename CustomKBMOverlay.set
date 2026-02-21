@@ -1,0 +1,15 @@
+Custom KBM Overlay
+9|Pos & Scale
+5|X position|kbm_overlay_x|0.0|1.0
+5|Y position|kbm_overlay_y|0.0|1.0
+5|Scale|kbm_overlay_scale|0.1|5.0
+9|Appearance
+5|Master Opacity|kbm_master_opacity|0.0|1.0
+5|Design Opacity|kbm_design_opacity|0.0|1.0
+1|Game-Reactive RGB|kbm_reactive_rgb
+1|Rainbow Mode|kbm_color_rainbow
+1|Show KPM Counter|kbm_show_kpm
+5|Key Fade Duration (sec)|kbm_fade_speed|0.0|2.0
+9|Animated Backgrounds
+1|Enable Background Animation|kbm_background_animation
+8|Background FPS|kbm_background_fps|1.0|120.0

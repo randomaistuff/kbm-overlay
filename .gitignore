@@ -1,0 +1,15 @@
+.vs/
+bin/
+obj/
+x64/
+Release/
+Debug/
+*.user
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.log
+*.zip
+!layouts/
+!backgrounds/

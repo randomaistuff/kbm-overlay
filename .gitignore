@@ -13,3 +13,7 @@ Debug/
 *.zip
 !layouts/
 !backgrounds/
+temp_*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

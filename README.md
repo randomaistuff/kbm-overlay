@@ -13,20 +13,18 @@ A highly customizable Keyboard and Mouse (KBM) overlay for Rocket League, featur
 * **Fully Customizable**: Adjust position, scale, opacity, and custom colors via the F2 menu.
 
 ## Installation
-1. Download the latest `CustomKBMOverlay.dll` from the [Releases](link_to_releases) page.
-2. Place the DLL in your BakkesMod plugins folder: `AppData/Roaming/bakkesmod/bakkesmod/plugins/`.
-3. Extract the assets (folders: `layouts`, `backgrounds`) into `AppData/Roaming/bakkesmod/bakkesmod/data/CustomKBMOverlay/`.
+1. Go to the [Custom KBM Overlay](https://bakkesplugins.com/) page on BakkesPlugins.
+2. Click **Install with BakkesMod**.
+3. **CRITICAL:** The automated installer **only** installs the DLL. You **must** download the `CustomKBMOverlay_Assets.zip` from the [GitHub Releases](https://github.com/YourUsername/CustomKBMOverlay/releases) page.
+4. Extract that ZIP into your BakkesMod data folder: `AppData/Roaming/bakkesmod/bakkesmod/data/`.
+   - Your final path should look like: `.../data/CustomKBMOverlay/layouts/...`
 
 ## Animated Backgrounds
 1. Place your PNG frames in `CustomKBMOverlay/backgrounds/[folder_name]/`.
 2. In the F2 menu, check **Enable Background Animation**.
 3. Enter your folder name and press **Enter**.
-4. **Tip**: Use `resize_frames.py` (included in source) to scale images to 708x379 for best performance.
-
-## Build Requirements
-* Visual Studio 2022
-* BakkesMod SDK
-* `Shlwapi.lib` (standard Windows library)
+4. **Tip**: Use [ezgif.com/video-to-png](https://ezgif.com/video-to-png) to easily convert video clips into PNG sequences.
+5. **Optimization**: Use `resize_frames.py` (included in source) to scale images to 708x379 for best performance.
 
 ## License
 MIT License - feel free to use and modify for your own projects!

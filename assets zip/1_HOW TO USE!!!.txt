@@ -1,0 +1,26 @@
+# Custom KBM Overlay - Assets Guide
+
+Thank you for downloading the Custom KBM Overlay assets! Here is how to get everything set up and customized.
+
+## 1. Initial Setup
+1. Open BakkesMod and click 'File' -> 'Open BakkesMod folder'.
+2. Navigate to 'data/CustomKBMOverlay'.
+3. Extract all folders and files from this ZIP into that directory.
+
+## 2. Setting Your Layout
+Go to the F2 menu -> Plugins -> Custom KBM Overlay.
+- Choose between **Full**, **WASD**, or **Mouse** layouts.
+- Each layout will automatically pull its background and images from the corresponding folder in your 'data/CustomKBMOverlay/layouts/' directory.
+
+## 3. Custom Animated Backgrounds
+You can add your own animations! 
+1. Create a new folder inside 'data/CustomKBMOverlay/backgrounds/'.
+2. Place a sequence of PNG frames in that folder (e.g., frame1.png, frame2.png).
+3. In the F2 menu, check **Enable Background Animation** and type your folder name.
+
+### 💡 Pro Tips:
+- **Video to PNG:** Use ezgif.com/video-to-png (https://ezgif.com/video-to-png) to quickly turn a video clip into a frame sequence.
+- **Optimization:** If your game is crashing, your images are too large! Use the 'resize_frames.py' script provided in the source code to scale them to 708x379. We recommend a limit of 150 frames.
+- **RGB Mode:** Check **Game-Reactive RGB** to have your keys pulse when you Boost or hit Supersonic speeds!
+
+Enjoy the overlay! 

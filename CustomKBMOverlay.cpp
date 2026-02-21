@@ -13,6 +13,13 @@ void CustomKBMOverlay::onLoad()
 	startTime = std::chrono::steady_clock::now();
 	bgMutex = std::make_unique<std::mutex>();
 
+	// Asset Verification
+	fs::path dataFolder = gameWrapper->GetDataFolder() / "CustomKBMOverlay";
+	if (!fs::exists(dataFolder)) {
+		cvarManager->log("WARNING: CustomKBMOverlay data folder not found! Assets (layouts/backgrounds) will not load.");
+		cvarManager->log("Please download assets from GitHub and extract to: " + dataFolder.string());
+	}
+
 	// Position / scale
 	cvarX = std::make_shared<CVarWrapper>(cvarManager->registerCvar("kbm_overlay_x",     "0.05", "X position of the KBM overlay (0.0 to 1.0)", true, true, 0.0f, true, 1.0f));
 	cvarY = std::make_shared<CVarWrapper>(cvarManager->registerCvar("kbm_overlay_y",     "0.7",  "Y position of the KBM overlay (0.0 to 1.0)", true, true, 0.0f, true, 1.0f));
